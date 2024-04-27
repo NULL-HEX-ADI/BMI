@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>BMI Calculator</h2>
+    <form method="post" action="/calculate">
+        Height (cm): <input type="number" name="height" required><br>
+        Weight (kg): <input type="number" name="weight" required><br>
+        Gender:
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female<br>
+        <input type="submit" value="Calculate BMI">
+    </form>
+</body>
+</html>

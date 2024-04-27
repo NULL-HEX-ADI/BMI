@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
